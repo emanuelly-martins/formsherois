@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(204, 217, 255);
+}
+
+header {
+    background-color: blue;
+    padding: 20px;
+    color: white;
+}
+
+#intro {
+    background-color: white;
+    color: rgb(0, 0, 55);
+    padding: 20px;
+    margin: 20px;
+    width: 500px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #94a3b8;
+  border-radius: 8px;
+}
+
+.opcao {
+    display: flex;
+    gap: 10px;
+    width: 20px;
+}
+
+#missoes {
+    display: flex;
+    gap: 10px;
+    width: 12px;
+}
+
+#missoes-pai {
+    display: flex;
+    gap: 8px;
+}
+
+button {
+  background-color: red;
+  color: white;
+  border: 0;
+  padding: 12px;
+}
+
+footer {
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
